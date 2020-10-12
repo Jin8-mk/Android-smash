@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/background">
+        <shape>
+            <solid android:color="@color/colorProgressFon"/>
+            <size android:width="200dp"
+                android:height="20dp"/>
+            <corners android:radius="18dp"/>
+        </shape>
+    </item>
+    <item android:id="@+id/progress">
+
+        <clip>
+            <layer-list>
+                <item>
+                    <shape>
+                        <solid android:color="@color/colorProgress"/>
+                        <corners
+                            android:topRightRadius="18dp"
+                            android:bottomRightRadius="18dp"
+                            android:topLeftRadius="18dp"
+                            android:bottomLeftRadius="18dp"
+                            />
+                    </shape>
+
+                </item>
+
+            </layer-list>
+        </clip>
+    </item>
+</layer-list>

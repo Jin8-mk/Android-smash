@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.p01_projectecology">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/smash_can"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ChooseGameActivity"
+            android:label="@string/title_activity_choose_game"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ConfidentialActivity"
+            android:label="Confidential"></activity>
+        <activity
+            android:name=".SignInActivity"
+            android:label="Sign In"></activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="Sign Up"></activity>
+        <activity
+            android:name=".ChooseActivity"
+            android:label="Choose"></activity>
+        <activity
+            android:name=".PlastukActivity"
+            android:label="Plastuk"></activity>
+        <activity
+            android:name=".BioActivity"
+            android:label="Bio"></activity>
+        <activity
+            android:name=".PaperActivity"
+            android:label="Paper"></activity>
+        <activity
+            android:name=".ConnectActivity"
+            android:label="Connect"></activity>
+        <activity
+            android:name=".StatistikActivity"
+            android:label="Statistik"></activity>
+        <activity
+            android:name=".GameActivity"
+            android:label="GameActivity"></activity>
+        <activity
+            android:name=".SnakeActivity"
+            android:label="SnakeActivity"></activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="ProfileActivity"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
